@@ -17,16 +17,15 @@ const Footer = () => {
             <div className="flex flex-col gap-3">
                 <div className="flex gap-2 items-center">
                     <span> <Email fill={'fill-white'}/> </span>
-                    <span>adimanjre@gmail.com</span>
+                    <a href="mailto:adimanjre@gmail.com"><span>adimanjre@gmail.com</span></a>
                 </div>
                 <div className="flex gap-2 items-center">
                     <span> <Call fill={'fill-white'}/> </span>
                     <span>+91 8600391721</span>
                 </div>
                 <div className="flex gap-3 items-center border-t-1 pt-3 border-t-gray-400">
-                    <GitHub fill={'fill-white'}/>
-                    <LinkedIn fill={'fill-white'}/>
-                    <Instagram fill={'fill-white'}/>
+                    <a href="https://github.com/adimanjre"><GitHub fill={'fill-white hover:fill-blue-300'}/></a>
+                    <a href="http://www.linkedin.com/in/adimanjre"><LinkedIn fill={'fill-white hover:fill-blue-300'}/></a>
                 </div>
             </div>
         </div>

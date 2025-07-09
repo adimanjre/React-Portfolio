@@ -19,7 +19,7 @@ export const projectData = [
 },
 {
     id:3,
-    name:"Paiting Picture",
+    name:"Painting Picture",
     description:"Developed a full-stack uptime monitoring application that enables users to track the status and performance of websites by creating customizable checks. Built with a React.js frontend and a Node.js backend, the app includes secure user authentication and session-based access control.",
     techStack:["React Js", "TypeScript", "Tailwind CSS", "Lazy Loading"],
     liveLink:"https://painting-picture.web.app/",
